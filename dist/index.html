@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <title>Quiz</title>
+  <script type="module" crossorigin src="/assets/index-7adbc7fe.js"></script>
+  <link rel="stylesheet" href="/assets/index-99e3b272.css">
+</head>
+
+<body>
+  <div class="main__wrapper">
+    <div class="quiz__container">
+      <div class="right">
+        <div>
+          <h1 class="right__title">Подберём вуз мечты</h1>
+          <p class="right__description">
+            Ответьте на 8 простых вопросов, и мы составим список наболее подходящих для вас вузов
+          </p>
+        </div>
+        <div class="right__img">
+          <img src="/assets/img-f74daf6e.png">
+        </div>
+      </div>
+
+      <form class="quiz__wrapper" data-step-form>
+
+        <!-- step one -->
+        <div class="quiz__content step_one" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Для кого вы ищете учебное заведение?</h2>
+            <p class="quiz__header-step">Шаг <span>1</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q1" value="Себе" checked>
+                <div class="quiz__question">
+                  <span>Себе</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Супругу/супруге">
+                <div class="quiz__question">
+                  <span>Супругу/супруге</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Родственнику">
+                <div class="quiz__question">
+                  <span>Родственнику</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Родственнику">
+                <div class="quiz__question">
+                  <span>Коллеге</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Ребенку">
+                <div class="quiz__question">
+                  <span>Ребенку</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Другое">
+                <div class="quiz__question">
+                  <span>Другое</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            <div class="quiz__buttons">
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step two -->
+        <div class="quiz__content step_two" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">В каком городе планируете поступать?</h2>
+            <p class="quiz__header-step">Шаг <span>2</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-select">
+              <div class="options__container">
+                <label>
+                  <input type="radio" name="q2" value="Санкт-Петербург" checked>
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Санкт-Петербург</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Москва">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Москва</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Новосибирск">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Новосибирск</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Нижний новгород">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Нижний новгород</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Ростов-на-Дону">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Ростов-на-Дону</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Екатеринбург">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Екатеринбург</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q2" value="Краснодар">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Краснодар</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="selected__option">
+                <span>Город</span>
+                <p class="selected">Санкт-Петербург</p>
+              </div>
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step three -->
+        <div class="quiz__content step_three" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Какое образование уже есть?</h2>
+            <p class="quiz__header-step">Шаг <span>3</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q3" value="9 классов" checked>
+                <div class="quiz__question">
+                  <span>9 классов</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q3" value="Колледж/техникум">
+                <div class="quiz__question">
+                  <span>Колледж/техникум</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q3" value="11 классов">
+                <div class="quiz__question">
+                  <span>11 классов</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q3" value="11 классов">
+                <div class="quiz__question">
+                  <span>11 классов</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q3" value="Училище">
+                <div class="quiz__question">
+                  <span>Училище</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q1" value="Неоконченное высшее">
+                <div class="quiz__question">
+                  <span>Неоконченное высшее</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step four -->
+        <div class="quiz__content step_four" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Куда планируете поступать?</h2>
+            <p class="quiz__header-step">Шаг <span>4</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q4" value="Вуз" checked>
+                <div class="quiz__question">
+                  <span>Вуз</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q4" value="Колледж/техникум">
+                <div class="quiz__question">
+                  <span>Колледж/техникум</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q4" value="Училище">
+                <div class="quiz__question">
+                  <span>Училище</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step five -->
+        <div class="quiz__content step_five" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Какую форму обучения предпочитаете?</h2>
+            <p class="quiz__header-step">Шаг <span>5</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q5" value="Очную" checked>
+                <div class="quiz__question">
+                  <span>Очную</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q5" value="Заочную">
+                <div class="quiz__question">
+                  <span>Заочную</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q5" value="Дистанционную">
+                <div class="quiz__question">
+                  <span>Дистанционную</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step six -->
+        <div class="quiz__content step_six" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Рассматриваете платное обучение?</h2>
+            <p class="quiz__header-step">Шаг <span>6</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q6" value="Нет, только бюджет" checked>
+                <div class="quiz__question">
+                  <span>Нет, только бюджет</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q6" value="Да, планирую учиться платно">
+                <div class="quiz__question">
+                  <span>Да, планирую учиться платно</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q6" value="Возможны оба варианта">
+                <div class="quiz__question">
+                  <span>Возможны оба варианта</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step seven -->
+        <div class="quiz__content step_seven" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Какая специальность интересует?</h2>
+            <p class="quiz__header-step">Шаг <span>7</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-select">
+              <div class="options__container">
+                <label>
+                  <input type="radio" name="q7" value="Любая" checked>
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Любая</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Философия">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Философия</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Социология">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Социология</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Юриспруденция">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Юриспруденция</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Менеджмент">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Менеджмент</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Математика">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Математика</span>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="radio" name="q7" value="Информатика">
+                  <div class="option">
+                    <div class="square">
+                      <div class="checked">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBjZFRCQAgDETFBEYxglFsYgQr2MQMJjHC3EBwiG47OAR9z33MOWMAIFhZgiN2Yru3wHh0LE0Y1p8p7b4sKrwfEpwUEWZSZlIV4Y8kww9Jh5kkLmgB9GGTZSptdSMAAAAASUVORK5CYII=">
+                      </div>
+                    </div>
+                    <span>Информатика</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="selected__option">
+                <span>Специальность</span>
+                <p class="selected">Любая</p>
+              </div>
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev>
+                <i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее
+                <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step height -->
+        <div class="quiz__content step_height" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Как скоро планируете поступать?</h2>
+            <p class="quiz__header-step">Шаг <span>8</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <label>
+                <input type="radio" name="q8" value="Как можно быстрее" checked>
+                <div class="quiz__question">
+                  <span>Как можно быстрее</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q8" value="Месяц">
+                <div class="quiz__question">
+                  <span>Месяц</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q8" value="Квартал">
+                <div class="quiz__question">
+                  <span>Квартал</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q8" value="Полгода">
+                <div class="quiz__question">
+                  <span>Полгода</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="q8" value="Год">
+                <div class="quiz__question">
+                  <span>Год</span>
+                  <div class="round">
+                    <div class="point"></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="quiz__buttons">
+              <button class="quiz__btn prev" type="button" data-prev><i class="ri-arrow-left-s-line"></i> Назад
+              </button>
+              <button class="quiz__btn next" type="button" data-next>Далее <i
+                  class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- step nine -->
+        <div class="quiz__content step_nine" data-step>
+          <div class="quiz__header">
+            <h2 class="quiz__header-title">Ваша подборка готова! 🥳 Куда нам отправить её?</h2>
+            <p class="quiz__header-step">Шаг <span>9</span>/9</p>
+          </div>
+
+          <div class="quiz__body">
+            <div class="quiz__body-grid">
+              <input class="quiz__question" type="text" name="name" placeholder="Как вас зовут?">
+              <input class="quiz__question" type="text" name="phone number" placeholder="Номер телефона">
+              <input class="quiz__question" type="email" name="email" placeholder="E-mail">
+            </div>
+            <button class="quiz__btn next finish" type="submit" data-next>Получить подборку</button>
+            <p class="personal">Нажимая на кнопку, вы даете согласие на обработку своих <a href="#">Персональных
+                данных</a></p>
+          </div>
+        </div>
+
+        <!-- congrats -->
+        <div class="quiz__content step_ten" data-step>
+          <div class="step__finish">
+            <img src="data:image/png;base64,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">
+            <h2 class="quiz__header-title">Отлично, спасибо!</h2>
+            <p class="right__description">
+              Мы отправили подборку вам на почту.
+              Если подборка не приходит — проверьте спам, возможно, она попала туда.
+            </p>
+
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  
+</body>
+
+</html>
